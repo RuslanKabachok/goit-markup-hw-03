@@ -44,13 +44,13 @@ ol {
 
 /*header*/
 
-.header{
-display: flex;
-width: 1200px;
-height: 80px;
+.header {
+  display: flex;
+  width: 1200px;
+  height: 80px;
 }
 
-.menu{
+.menu {
   display: flex;
   flex-direction: row;
   padding-top: 32px;
@@ -59,12 +59,8 @@ height: 80px;
   padding-right: 331px;
 }
 
-.contacts{
+.contacts {
   display: flex;
-}
-
-.container{
-
 }
 
 .logo {
@@ -90,8 +86,7 @@ height: 80px;
   color: var(--text-color);
 }
 
-
-.menu-item{
+.menu-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -99,7 +94,7 @@ height: 80px;
   color: var(--text-color);
 }
 
-.menu-item:not(:last-child){
+.menu-item:not(:last-child) {
   padding-right: 50px;
 }
 
@@ -125,7 +120,7 @@ height: 80px;
   padding-bottom: 32px;
 }
 
-.contact-link:not(:last-child){
+.contact-link:not(:last-child) {
   padding-left: 50px;
 }
 
@@ -136,8 +131,14 @@ height: 80px;
 
 /*Hero*/
 
-.background{
-  background-color: #2F303A;
+.container {
+  display: flex;
+}
+
+.background {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
 }
 
 .main-title {
@@ -148,6 +149,11 @@ height: 80px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+
+  padding-top: 200px;
+  padding-right: 452px;
+  padding-bottom: 280px;
+  padding-left: 452px;
 }
 
 .main-btn {
@@ -218,6 +224,12 @@ height: 80px;
 }
 
 /*Footer*/
+
+.footer-background {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
 
 .nav-link {
   font-size: 14px;
