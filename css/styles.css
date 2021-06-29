@@ -45,22 +45,18 @@ ol {
 /*header*/
 
 .header {
-  display: flex;
-  width: 1200px;
-  height: 80px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .menu {
   display: flex;
-  flex-direction: row;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 93px;
-  padding-right: 331px;
+  margin-left: 0px;
 }
 
 .contacts {
   display: flex;
+  padding-right: 0;
 }
 
 .logo {
@@ -68,22 +64,12 @@ ol {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  color: var(--accent-color);
-
-  display: flex;
-  width: 145px;
-  height: 31px;
-  padding-top: 24px;
-  padding-right: 93px;
-  padding-bottom: 25px;
-  padding-left: 215px;
-  justify-content: center;
+  color: var(--text-color);
+  margin-right: 94px;
 }
 
 .logo:hover,
 .logo:focus {
-  color: var(--text-color);
 }
 
 .menu-item {
@@ -115,13 +101,10 @@ ol {
   letter-spacing: 0.02em;
 
   color: var(--grey-color);
-  padding-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .contact-link:not(:last-child) {
-  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .contact-link:hover,
@@ -133,13 +116,16 @@ ol {
 
 .container {
   display: flex;
+  margin: 0 auto;
+  width: 1200;
+  padding: 0 15px;
 }
 
-.background {
+/*.background {
   background-color: #2f303a;
   width: 1600px;
   height: 600px;
-}
+}*/
 
 .main-title {
   font-weight: 900;
@@ -224,6 +210,9 @@ ol {
 }
 
 /*Footer*/
+.navigation {
+  display: flex;
+}
 
 .footer-background {
   background-color: #2f303a;
