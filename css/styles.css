@@ -168,7 +168,7 @@ img {
   line-height: 30px;
   letter-spacing: 0.06em;
   padding: 10px 32px;
-
+  border: #2196f3;
   color: var(--white-color);
 
   background: var(--accent-color);
@@ -177,6 +177,20 @@ img {
 }
 
 /*Specification*/
+
+.spec-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.spec-list {
+  margin-top: 94px;
+  /* margin-right: 30px;*/
+}
+
+.spec-list:not(:last-child) {
+  margin-right: 30px;
+}
 
 .spec-list-item {
   font-weight: bold;
@@ -204,6 +218,8 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 94px;
+  margin-bottom: 50px;
 
   color: var(--text-color);
 }
