@@ -18,14 +18,14 @@
 
 <body>
 
-    <header class="header-container container">
+    <header class="header-container">
         <div class="container divclass">
             <nav class="navigation ">
             <a class="logo" href="./index.html">Web<span class="logo-end">Studio</span></a>
         
             
                     <ul class="menu">
-                        <li class="menu-item"> <a href="./index.html" class="menu-link">Студия</a></li>
+                        <li class="menu-item"> <a href="./index.html" class="menu-link current">Студия</a></li>
                         <li class="menu-item"> <a href="./portfolio.html" class="menu-link">Портфолио</a></li>
                         <li class="menu-item"> <a href="" class="menu-link">Контакты</a></li>
                     </ul>
@@ -50,27 +50,27 @@
 
         <!--Specification-->
 
-        <section>  
+        <section class="spec-list">  
              <h2 hidden>Особенности</h2>
               <ul class="spec-section container">
-                 <li class="spec-list">
+                 <li class="spec-item">
                      <h3 class="spec-list-item">Внимание к деталям</h3>
                      <p class="spec-list-text">Идейные соображения, а также начало повседневной работы по формированию
                         позиции.</p>
                  </li>
 
-                 <li class="spec-list">
+                 <li class="spec-item">
                      <h3 class="spec-list-item">Пунктуальность</h3>
                      <p class="spec-list-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                  </li>
  
-                 <li class="spec-list">
+                 <li class="spec-item">
                      <h3 class="spec-list-item">Планирование</h3>
                      <p class="spec-list-text">Равным образом консультация с широким активом в значительной степени
                         обуславливает.</p>
                  </li>
 
-                 <li class="spec-list">
+                 <li class="spec-item">
                      <h3 class="spec-list-item">Современные технологии</h3>
                      <p class="spec-list-text">Значимость этих проблем настолько очевидна, что реализация плановых
                         заданий.</p>
@@ -81,7 +81,7 @@
 
         <!--What are we doing-->
 
-        <section>
+        <section class="wawd-section">
             <h2 class="section-title">Чем мы занимаемся</h2>
             <ul class="container section-container">
                 <li class="section-item"><img src="./images/img_1.jpg" alt="Работник работает с айпадом" height="294" width="370"></li>
@@ -92,31 +92,31 @@
         </section>
 
         <!--Team-->
-        <section>
+        <section class="team-section">
             <h2 class="section-title">Наша команда</h2>
             <ul class="container team-container">
-                <li>
+                <li class="worker-item">
                     <img src="./images/igor.jpg" alt="Работник Игорь" height="260" width="270">
-                    <h3 class="worker-igor">Игорь Демьяненко</h3>
-                    <p class="worker-igor-text worker-text">Product Designer</p>
+                    <h3 class="worker-name">Игорь Демьяненко</h3>
+                    <p class="worker-text">Product Designer</p>
                 </li>
 
-                <li>
+                <li class="worker-item">
                     <img src="./images/olga.jpg" alt="Работник Ольга" height="260" width="270">
-                    <h3 class="worker-olga">Ольга Репина</h3>
-                    <p class="worker-olga-text worker-text">Frontend Developer</p>
+                    <h3 class="worker-name">Ольга Репина</h3>
+                    <p class="worker-text">Frontend Developer</p>
                 </li>
 
-                <li>
+                <li class="worker-item">
                     <img src="./images/mykola.jpg" alt="Работник Николай" height="260" width="270">
-                    <h3 class="worker-mykola">Николай Тарасов</h3>
-                    <p class="worker-mykola-text worker-text">Marketing</p>
+                    <h3 class="worker-name">Николай Тарасов</h3>
+                    <p class="worker-text">Marketing</p>
                 </li>
 
-                <li>
+                <li class="worker-item">
                     <img src="./images/misza.jpg" alt="Работник Михаил" height="260" width="270">
-                    <h3 class="worker-misha">Михаил Ермаков</h3>
-                    <p class="worker-misha-text worker-text">UI Designer</p>
+                    <h3 class="worker-name">Михаил Ермаков</h3>
+                    <p class="worker-text">UI Designer</p>
                 </li>
             </ul>
         </section>
@@ -124,7 +124,7 @@
 
     <footer class="footer">
        <div class="container footer-container"> 
-           <a href="./index.html" class="logo">Web<span class="logo-end-footer">Studio</span></a>
+           <div class="footer-logo"><a href="./index.html" class="logo">Web<span class="logo-end-footer">Studio</span></a></div>
 
         <address>
             <ul class="footer-list">
